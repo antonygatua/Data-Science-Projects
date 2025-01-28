@@ -90,16 +90,29 @@ python visualize_data.py
 ```plaintext
 Travel Aggregator Analysis/
 │
-├── data/                     # Raw and processed datasets
-├── notebooks/                # Jupyter Notebooks for exploratory analysis
-├── src/                      # Source code for data preprocessing and analysis
-│   ├── preprocess.py         # Data cleaning and merging script
-│   ├── analyze_bookings.py   # Analysis for bookings-related questions
-│   ├── analyze_sessions.py   # Analysis for sessions-related questions
-│   ├── visualize_data.py     # Scripts for generating plots and visualizations
-├── tests/                    # Unit tests for validation
-├── requirements.txt          # Python dependencies
-└── README.md                 # Project README
+├── assets/                       # Supporting assets such as images, documentation, or supplementary files
+│   ├── images/                   # Images used in the analysis or documentation (e.g., charts, visualizations)
+│   ├── documentation/            # Additional documentation or reference files
+│
+├── data/                         # Directory for raw and processed datasets
+│   ├── raw/                      # Original raw datasets (e.g., Bookings.csv, Sessions.csv)
+│   ├── processed/                # Cleaned and transformed datasets ready for analysis
+│
+├── notebooks/                    # Jupyter Notebooks for exploratory data analysis and reporting
+│   ├── travel_aggregator.ipynb
+│
+├── src/                          # Source code for data preprocessing, analysis, and visualization
+│   ├── preprocess.py             # Script for data cleaning, merging, and preprocessing
+│   ├── analyze_bookings.py       # Script for answering booking-related questions
+│   ├── analyze_sessions.py       # Script for answering session-related questions
+│   ├── visualize_data.py         # Script for generating plots and visualizations
+│
+├── tests/                        # Unit tests for validating data and scripts
+│   ├── test_preprocess.py        # Tests for data preprocessing functionality
+│   ├── test_analysis.py          # Tests for analysis functions and scripts
+│
+├── requirements.txt              # File listing Python dependencies and libraries
+└── README.md                     # Project overview, objectives, and usage instructions
 ```
 
 ------
