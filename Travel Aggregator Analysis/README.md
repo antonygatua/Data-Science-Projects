@@ -102,10 +102,11 @@ Travel Aggregator Analysis/
 │   ├── travel_aggregator.ipynb
 │
 ├── src/                          # Source code for data preprocessing, analysis, and visualization
-│   ├── preprocess.py             # Script for data cleaning, merging, and preprocessing
-│   ├── analyze_bookings.py       # Script for answering booking-related questions
-│   ├── analyze_sessions.py       # Script for answering session-related questions
-│   ├── visualize_data.py         # Script for generating plots and visualizations
+│   ├── data_loader.py            # Load and preprocess data
+│   ├── analysis.py               # Perform all analyses
+│   ├── visualizations.py         # Generate plots and charts
+│   ├── utils.py                  # Helper functions
+│   │── main.py                   # Run the full pipeline
 │
 ├── tests/                        # Unit tests for validating data and scripts
 │   ├── test_preprocess.py        # Tests for data preprocessing functionality
