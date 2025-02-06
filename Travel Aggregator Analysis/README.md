@@ -66,20 +66,19 @@ Place the `Booking.csv` and `Sessions.csv` files in the `data/` directory.
 
 ## Usage 
 
-* **Data Preprocessing**: Run the preprocessing script to clean and merge the data.
+* **Data Preprocessing**: Run the preprocessing script to load, clean and merge the data.
 ```bash
-python preprocess.py
+python data_loader.py 
 ```
 
 * **Analysis Scripts**: Use the analysis scripts to answer specific questions.
 ```bash 
-python analyze_bookings.py
-python analyze_sessions.py
+python analysis.py
 ```
 
 * **Visualizations**: Generate visualizations (e.g., pie chart, heatmaps, time series) by running:
 ```bash 
-python visualize_data.py
+python visualizations.py
 ```
 
 * **Interactive reports**: Open Jupyter notebooks in the `notebooks/` directory for interactive analysis.
